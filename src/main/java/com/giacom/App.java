@@ -344,7 +344,7 @@ public class App {
             e.printStackTrace();
         }
         file1 = new File("/Users/annascott/Downloads/TylerMorganWriting.pdf");
-        file2 = new File("/Users/annascott/Downloads/TylerMorganReadingWriting2.pdf");
+        file2 = new File("/Users/annascott/Downloads/TylerMorganWritingCurrent2.pdf");
 
         //Instantiating PDFMergerUtility class
         PDFmerger = new PDFMergerUtility();
@@ -582,7 +582,7 @@ public class App {
             e.printStackTrace();
         }
         file1 = new File("/Users/annascott/Downloads/ForrestCochiseWriting.pdf");
-        file2 = new File("/Users/annascott/Downloads/ForrestCochiseReadingWriting2.pdf");
+        file2 = new File("/Users/annascott/Downloads/ForrestCochiseWritingCurrent2.pdf");
 
         //Instantiating PDFMergerUtility class
         PDFmerger = new PDFMergerUtility();
