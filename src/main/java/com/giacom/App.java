@@ -50,6 +50,10 @@ public class App {
             "Tyler worked on using exclamation point, question mark, and period in sentences"
     };
 
+    public static String br = System.getProperty("line.separator");
+
+    static String modificationsTyler = br + "Test/Assignments modifications: extra time to complete, shorten the assignment/Test," + br + "frequent breaks, assist with reading, provide pictures for concepts," + br + "provide songs as concepts, repeating instructions";
+
     static String[] servicesForrestReading = new String[]{"Forrest listen to the stories from Epic",
             "Forrest listen to the stories from StoryJumper",
             "Forrest listen to the stories from Tarheel reader",
@@ -87,18 +91,22 @@ public class App {
 
     };
 
-    static String[] servicesCraig = new String[] {"Craig practiced phonics and work on stories from Achive",
+    static String modificationsForrest = br + "Test/assignment modifications: Extra time, frequent repetition of instruction, modulating the voice while delivering instructions," + br + "using music while delivering instructions";
+
+    static String[] servicesCraig = new String[] {"Craig practiced phonics and stories from Achive",
             "Craig practiced phonics and read stories from ReadWorks",
             "Craig worked on stories from Achive",
             "Craig worked on stories from Readworks",
-            "Craig read stories and worked on activities from Achive",
-            "Craig read stories and worked on activities from ReadWorks",
+            "Craig read stories from Achive",
+            "Craig worked on activities from ReadWorks",
             "Craig worked on stories from Achive and ReadWorks",
             "Craig completed  activities from Achive",
             "Craig completed activities from ReadWorks",
             "Craig worked on phonics test"
 
     };
+
+    static String modificationsCraig = br + "Test/Assignment modificastions: Extra time to complete assignment/test, breaks as needed, shorten the assignment/test";
 
     static String absent = "Student was absent";
     static String holiday = "No school";
